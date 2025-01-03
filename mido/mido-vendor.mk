@@ -129,35 +129,19 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudioalsa \
     libc2d30_bltlib \
-    libconfigdb \
     libdapparamstorage \
     libdiag \
-    libdsi_netctrl \
-    libdsutils \
     libfastcvadsp_stub \
     libfastcvopt \
     libgpudataproducer \
     libgsl \
     libhdr_tm \
-    libidl \
     libllvm-glnext \
-    libmdmdetect \
     libmdsprpc \
     libmm-hdcpmgr \
-    libnetmgr \
-    libpdmapper \
-    libqcci_legacy \
-    libqdi \
-    libqdp \
-    libqmi \
     libqmi_cci \
-    libqmi_client_helper \
-    libqmi_client_qmux \
     libqmi_common_so \
-    libqmi_csi \
     libqmi_encdec \
-    libqmi_legacy \
-    libqmiservices \
     libscalar \
     libsdm-color \
     libsdm-diag \
@@ -165,9 +149,7 @@ PRODUCT_PACKAGES += \
     libsdmextension \
     libsensor1 \
     libsensor_reg \
-    libthermalclient \
     libtinyxml2_1 \
-    libxml \
     sensor_calibrate \
     sensors.ssc \
     vendor.dolby.hardware.dms@2.0 \
@@ -762,7 +744,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.1 \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
-    deviceInfoServiceModule \
     android.hardware.bluetooth@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     fingerprint.goodix \
@@ -804,6 +785,7 @@ PRODUCT_PACKAGES += \
     libcne \
     libcneapiclient \
     libcneoplookup \
+    libconfigdb \
     libcpion \
     libdataitems \
     libdisp-aba \
@@ -811,11 +793,14 @@ PRODUCT_PACKAGES += \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
+    libdsi_netctrl \
+    libdsutils \
     libfp_client \
     libfpnav \
     libfpservice \
     libgdtap \
     libhdcpsrm \
+    libidl \
     libizat_client_api \
     libizat_core \
     liblbs_core \
@@ -826,8 +811,11 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libmdmdetect \
+    libnetmgr \
     libnetmgr_common \
     libnlnetmgr \
+    libpdmapper \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -836,7 +824,14 @@ PRODUCT_PACKAGES += \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
+    libqdi \
+    libqdp \
     libqisl \
+    libqmi \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_csi \
+    libqmiservices \
     libqrtr \
     libqsocket \
     libqti-perfd-client-vendor \
@@ -855,10 +850,12 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libssd \
     libsystem_health_mon \
+    libthermalclient \
     libthermalfeature \
     libtime_genoff \
     libwms \
     libwqe \
+    libxml \
     libxtadapter \
     libxtwifi_server_protocol \
     libxtwifi_server_protocol_uri_v3 \
