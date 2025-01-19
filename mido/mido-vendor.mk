@@ -150,7 +150,6 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     libtinyxml2_1 \
-    sensor_calibrate \
     sensors.ssc \
     vendor.dolby.hardware.dms@2.0 \
     vendor.qti.hardware.dsp@1.0 \
