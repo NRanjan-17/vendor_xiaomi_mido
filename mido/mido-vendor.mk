@@ -764,9 +764,6 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libSecureUILib \
     libStDrvInt \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libbt-hidlclient \
     libbtnv \
     libcdfw \
@@ -846,8 +843,6 @@ PRODUCT_PACKAGES += \
     libwqe \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     qcrild_librilutils \
     qtibus \
     qtimutex \
@@ -1004,8 +999,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     wcnss_service_xiaomi \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
     dpmd
 
 PRODUCT_PACKAGES += \
