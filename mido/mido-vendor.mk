@@ -119,15 +119,9 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libQSEEComAPI \
-    libacdb-fts \
-    libacdbloader \
-    libacdbrtac \
-    libadiertac \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libaudcal \
-    libaudioalsa \
     libc2d30_bltlib \
     libdapparamstorage \
     libdiag \
@@ -154,6 +148,9 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms@2.0 \
     vendor.qti.hardware.dsp@1.0 \
     libChamomilePA \
+    libacdb-fts \
+    libacdbloader \
+    libacdbrtac \
     libactuator_dw9763 \
     libactuator_dw9763_ofilm_imx258 \
     libactuator_dw9763_qtech_imx258 \
@@ -162,8 +159,11 @@ PRODUCT_PACKAGES += \
     libactuator_lc898212xd_qc2002 \
     libactuator_ofilm_dw9763 \
     libactuator_pseudo \
+    libadiertac \
     libadm \
     libadpcmdec \
+    libaudcal \
+    libaudioalsa \
     libcapiv2svacnn \
     libcapiv2vop \
     libchromaflash \
